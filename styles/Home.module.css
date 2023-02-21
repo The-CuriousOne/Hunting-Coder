@@ -3,15 +3,15 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 6rem 12rem 6rem 12rem;
   min-height: 100vh;
 }
 
 .description {
   display: inherit;
-  justify-content: inherit;
+  justify-content: center;
   align-items: inherit;
-  font-size: 0.85rem;
+  font-size: 1 rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
@@ -204,7 +204,7 @@
   }
 
   .description {
-    font-size: 0.8rem;
+    font-size: 1 rem;
   }
 
   .description a {
@@ -275,4 +275,61 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.mainnav ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.mainnav ul li{
+  margin: 0px 25px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.myimg{
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.blogs{
+  margin: 30px;
+  padding: 10px;
+}
+
+.blogitem{
+  margin:10px;
+  padding: 10px;
+}
+
+.description{
+  font-size: 20px
+}
+
+.main{
+  line-height: 1.5;
+}
+
+.aboutitem{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px 150px 30px 150px;
+}
+
+.abouttitle{
+  margin-bottom: 20px;
+  display: inherit;
+  align-items: inherit;
+}
+
+.aboutdescription p{
+  line-height: 1.5 em;
+  margin-bottom: 13px;
+}
+
+.aboutdescription ul{
+  line-height: 1.5 em;
+  margin: 10px 0 0 30px;
 }
